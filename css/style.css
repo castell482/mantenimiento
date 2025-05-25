@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Fredericka+the+Great&family=Libre+Barcode+39&family=Lilita+One&family=Orelega+One&family=Rubik+Glitch&display=swap");
+body {
+  background-color: #adaaaa;
+}
+
+/* view acumulated winner*/ 
+img {
+  z-index: -1;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.margin-two {
+  position:fixed; 
+	bottom: 0;
+	width: 83%;
+	height: 35%;
+}
+
+p {
+  font-style: normal;
+  color: black;
+  font-family: "Orelega One", cursive;
+}
+span {
+  font-size: 8vw;
+}
+.center-paraf {
+  padding-left: 17%;
+}
+
+.name {
+  font-size: 3.5em;
+}
+
+.fount-margin {
+  margin-top: -4vw;
+}
+
+/* modal dialog */
+.img-winner img {
+  width: 100vw;
+  height: 99.5vh;
+}
+
+.modal-dialog {
+  display: flex;
+  position: absolute;
+}

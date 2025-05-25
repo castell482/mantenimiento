@@ -1,0 +1,33 @@
+/* view lec seller client*/
+
+body {
+  background-color: #adaaaa;
+}
+img {
+  width: 70vw;
+  height: auto;
+  display:block;
+  margin:auto;
+}
+
+.input-read {
+  margin-left: 25%;
+}
+
+
+button:hover {
+  filter: blur(6px);
+}
+
+.btn {
+  background-color: #f6ff00;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
